@@ -1,0 +1,41 @@
+* {
+  background-color: ;
+}
+header {
+}
+
+.sidebar {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(167, 167, 167);
+  overflow-x: hidden;
+  padding-top: 16px;
+  border-right: 3px solid black;
+}
+
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 30px;
+  color: #252525;
+  display: block;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+  text-decoration: none;
+}
+.options img {
+  width: 50px;
+  margin: 20px;
+  margin-left: 10px;
+  background-color: transparent;
+}
+
+#logo {
+  margin-left: 25px;
+}
